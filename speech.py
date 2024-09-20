@@ -14,5 +14,3 @@ def transcription():
             print("No se pudo entender el audio")
         except sr.RequestError as e:
             print(f"Error al conectar: {e}")
-
-texto_transcrito = transcription()
